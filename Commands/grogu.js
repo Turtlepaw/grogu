@@ -4,7 +4,6 @@ const { GenerateInviteURL } = require("../Config/config");
 const GroguImages = require("../Grogu_Images/Images");
 
 module.exports = {
-    devOnly: true,
     data: new jsh.commandBuilder()
     .setName("grogu")
     .setDescription(`Gets an Grogu image!`)
